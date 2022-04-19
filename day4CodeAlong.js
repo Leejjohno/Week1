@@ -135,4 +135,88 @@
 // console.log(person[selectedOption])
 
 //  -----------------------------------------------------------------------
+//  ----------------------------Objects-----------------------
+
+// const cafe = {              //variable called Cafe. The {} determins that this is an Object not a variable or array.
+//     name: "Whitesheep",
+//     seatingCapacity: 100,
+//     hasSpecialOffers: true, //name, seatingCapacity, hasSpecialOffers and drinks are all KEYS
+//     drinks: [
+//         "Cappuccino",
+//         "Latte",
+//         "Filter coffee",
+//         "Tea",
+//         "Hot chocolate"     //keys and values are seperated by a colon.
+//     ]
+//};
+
+// let person = {
+//     name: "Lee",
+//     age: 33
+//}
+
+//  person.name refers to the object: 'person' and the key: 'name'
+//  console.log(person.name)
+//  console.log(person["name"])
+//-----------------------------------------------------------------------------------
+// let offer = "none";
+// let time = 1200;
+
+// const cafe = {                      //variable called Cafe. The {} determins that this is an Object not a variable or array.
+//     name: "Whitesheep",
+//     seatingCapacity: 100,
+//     hasSpecialOffers: true,     //name, seatingCapacity, hasSpecialOffers and drinks are all KEYS
+//     drinks: [
+//         "Cappuccino",
+//         "Latte",
+//         "Filter coffee",
+//         "Tea",
+//         "Hot chocolate"         //keys and values are seperated by a colon.
+//         ],
+
+//         // breakfastOffer: "Free croissant with coffee",
+//         // lunchOffer: "Free drink with surprisingly priced sandwich",
+//         // noOffer: "Sorry no offer"
+//     openCafe(){
+//         if(hasSpecialOffers){
+//              return "Time for a special offer";
+//         }
+//     },
+//     openCafe:(){
+//         return "Come on in";
+//     },
+//     closeCafe:(){
+//         return "We are closed, come back tomorrow!"
+//     }
+// };
+// console.log(cafe.openCafe());
+// console.log(cafe.closeCafe());
+
+// if (time < 1100) {
+//     offer = cafe.breakfastOffer;
+//     console.log(cafe.breakfastOffer);
+// } else if (time < 1500) {
+//     offer = cafe.lunchOffer;
+//     console.log(cafe.lunchOffer);
+// }
+//
+
+//  --------------------------------------------------------------------
+
+// let day = ("Monday")
+
+// const alarm = {
+//     readout: "",
+//     weekendAlarm: "No alarm",
+//     weekdayAlarm: "Alarm set"
+// };
+
+// if (day == "Saturday" || day == "Sunday") {
+//     alarm.readout = alarm.weekendAlarm
+// }
+// else if (day == "Monday" || day == "Tuesday" || day == "Wednesday" || day == "Thursday" || day == "Friday") {
+//     alarm.readout = alarm.weekdayAlarm
+// }
+// console.log(alarm.readout)
+//  ------------------------------------------------------------------------------
 

@@ -3,7 +3,7 @@
 const pinNo = 1234
 let bankBalance = 2000
 
-const cashMachinePrompter = require('readline').createInterface({
+const cashMachinePrompter = require("readline").createInterface({
     input: process.stdin,
     output: process.stdout
 })
@@ -19,7 +19,7 @@ const cashMachinePrompter = require('readline').createInterface({
 
 function cashMachineWithdraw() {
     console.log("Access Granted")
-        const cashMachineAccess = require('readline').createInterface({
+        const cashMachineAccess = require("readline").createInterface({
             input: process.stdin,
             output: process.stdout
         })

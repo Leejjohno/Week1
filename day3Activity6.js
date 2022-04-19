@@ -1,5 +1,5 @@
 // ----------------Activity 6 Arrays and Loops-------------------------
-// Bizzarely I did this one as a function but whatever.
+// 
 let bobsFollowers = [
     "John Smith",
     "James Jones",

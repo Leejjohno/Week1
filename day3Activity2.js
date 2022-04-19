@@ -1,13 +1,8 @@
-let randNum1 = ranNumGen()
-let randNum2 = ranNumGen()
-let randNum3 = ranNumGen()
-let randNum4 = ranNumGen()
-let randNum5 = ranNumGen()
-let randNum6 = ranNumGen()
-
-    function ranNumGen() {
-    x = Math.random() * 50;
+//  ---------Activity 2 (generate a no. between 1 & 50, 6 times)-----------
+function numberGen() {
+       x = (Math.random() * 50)
         return x;
-    }
-
-console.log (`${randNum1}, ${randNum2}, ${randNum3}, ${randNum4}, ${randNum5}, ${randNum6}`)
+}
+for (i = 0; i <= 5; i += 1) {
+console.log(`${numberGen()}`)
+}
